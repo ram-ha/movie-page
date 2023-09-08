@@ -1,9 +1,13 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      Welcome
-    </div>
-  );
+    <Router>
+      <Switch>
+
+      </Switch>
+    </Router>
+  )
 }
 
 export default App;
